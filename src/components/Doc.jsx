@@ -9,19 +9,19 @@ const Doc = ({windowstate,setwindowstate}) => {
         className="icon github"
         onClick={() => setwindowstate((state) => ({ ...state, github: true }))}
       >
-        <img src="./public/docIcons/github.svg" alt="" />
+        <img src="./docIcons/github.svg" alt="" />
       </div>
       <div
         className="icon calender"
         onClick={() => setwindowstate((state) => ({ ...state, calendar: true }))}
       >
-        <img src="./public/docIcons/calender.svg" alt="" />
+        <img src="./docIcons/calender.svg" alt="" />
       </div>
       <div
         className="icon note"
         onClick={() => setwindowstate((state) => ({ ...state, note: true }))}
       >
-        <img src="./public/docIcons/note.svg" alt="" />
+        <img src="./docIcons/note.svg" alt="" />
       </div>
       <div
         className="icon mail"
@@ -29,19 +29,19 @@ const Doc = ({windowstate,setwindowstate}) => {
           window.open("mailto:ananyomitra310@gmail.com", "_blank");
         }}
       >
-        <img src="./public/docIcons/mail.svg" alt="" />
+        <img src="./docIcons/mail.svg" alt="" />
       </div>
       <div
         className="icon pdf"
         onClick={() => setwindowstate((state) => ({ ...state, resume: true }))}
       >
-        <img src="./public/docIcons/pdf.svg" alt="" />
+        <img src="./docIcons/pdf.svg" alt="" />
       </div>
       <div
         className="icon spotify"
         onClick={() => setwindowstate((state) => ({ ...state, spotify: true }))}
       >
-        <img src="./public/docIcons/spotify.svg" alt="" />
+        <img src="./docIcons/spotify.svg" alt="" />
       </div>
       <div
         className="icon link"
@@ -52,13 +52,13 @@ const Doc = ({windowstate,setwindowstate}) => {
           );
         }}
       >
-        <img src="./public/docIcons/link.svg" alt="" />
+        <img src="./docIcons/link.svg" alt="" />
       </div>
       <div
         className="icon cli"
         onClick={() => setwindowstate((state) => ({ ...state, cli: true }))}
       >
-        <img src="./public/docIcons/cli.svg" alt="" />
+        <img src="./docIcons/cli.svg" alt="" />
       </div>
     </footer>
   );
