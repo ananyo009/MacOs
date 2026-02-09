@@ -1,0 +1,17 @@
+.resume-viewer{
+    height: 100%;
+    overflow: auto;
+
+    embed{
+        width: 100%;
+        height: 100%;
+    }
+    embed::-webkit-scrollbar{
+    width: 8px;
+}
+embed::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
+}
+

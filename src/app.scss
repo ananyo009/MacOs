@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+
+    #root{
+        height: 100%;
+        width: 100%;
+
+        main{
+            height: 100%;
+            width: 100%;
+            background-image: url("../public/batman4.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+.cli-view{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 3rem;
+    background-color: black;
+    
+    /* Target the console container to adjust text size */
+    div[name="react-console-emulator"]{
+        height: 100%;
+        width: 100%;
+        background-color: transparent !important;
+        font-size: 1.8rem; /* increased font size for terminal text */
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Segoe UI Mono", "Courier New", monospace;
+        line-height:2 rem;
+    }
+    
+}
+

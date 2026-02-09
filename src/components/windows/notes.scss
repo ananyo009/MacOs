@@ -1,0 +1,10 @@
+.note-viewer{
+    padding: 1rem;
+    overflow: auto;
+    padding-bottom: 10rem;
+    height: 100%;
+    font-size: 1.2rem;
+    pre{
+        background-color: transparent !important;
+    }
+}
