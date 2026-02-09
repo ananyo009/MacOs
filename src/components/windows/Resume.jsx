@@ -7,7 +7,7 @@ const Resume = ({windowname,windowstate,setwindowstate}) => {
       <Window windowname={windowname} setwindowstate={setwindowstate}>
           <div className="resume-viewer">
               
-          <embed src="/resume.pdf" frameborder="0"></embed>
+          <embed src="./resume.pdf" frameborder="0"></embed>
 
           </div>
     </Window>
