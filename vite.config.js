@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/MacOs/",
   build: {
-    chunkSizeWarningLimit: 1000, // Raises the limit from 500kb to 1000kb
+    chunkSizeWarningLimit: 2000, // Raises the limit from 500kb to 1000kb
   },
 });
 
