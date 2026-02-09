@@ -10,7 +10,7 @@ const Window = ({children, width="35vw", height="60vh" ,windowname , windowstate
                 width: width,
                 height: height,
                 x: 300,
-                y:300
+                y:100
             }}
         >
             <div className='windows'>
