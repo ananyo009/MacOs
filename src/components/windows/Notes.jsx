@@ -12,14 +12,14 @@ const Notes = ({windowname,windstate,setwindowstate}) => {
     const [markdown, setmarkdown] = useState(null)
 
     useEffect(() => {
-        fetch('/note.txt')
+        fetch('./note.txt')
             .then(res => res.text())
             .then(text => setmarkdown(text))
     }, [])
     
 
   return (
-      <Window windowname={windowname} setwindowstate={setwindowstate}>
+      <Window windowname={windowname} setwindowstate={setwindowstate} width="50vw">
           <div className="note-viewer">
               {markdown ? <SyntaxHighlighter language='typescript' style={atelierDuneDark}>{markdown}</SyntaxHighlighter>:<p>Loading...</p>}
           </div>
